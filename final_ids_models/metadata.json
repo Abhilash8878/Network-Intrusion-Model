@@ -1,0 +1,9 @@
+{
+    "project": "Network Intrusion Detection System",
+    "supervised_model": "Random Forest",
+    "anomaly_model": "Isolation Forest",
+    "hybrid_rule": "Flag as attack if either model predicts attack",
+    "attack_label": 1,
+    "normal_label": 0,
+    "held_out_attack_category": "Worms"
+}
